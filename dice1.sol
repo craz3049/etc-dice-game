@@ -3,7 +3,7 @@ pragma solidity ^0.4.0;
 contract CoinFlip {
     
     address owner;
-    uint payPercentaje = 90;
+    uint payPercentaje = 75;
     
     event Status(string _msg, address user, uint amount);
     
